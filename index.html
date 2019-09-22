@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<!--justin senia-->
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Custom-Setting-Mouseover-Events_JavaScript</title>
+	<link href="css/StyleSheet.css" rel="stylesheet" type="text/css"></link>
+	<script src='js/ProtoFunctions.js'> </script>
+	
+</head>
+
+
+<body>
+	<div id="container">
+
+	<form id="controlPanel">
+	<p id="panelOptions">Choose an option: <br />
+		Small Jump (10) <input type="radio" name="jump" id="smallj">
+		Medium Jump (60) <input type="radio" name="jump" id="mediumj">
+		Big Jump (110) <input type="radio" name="jump" id="bigj">
+	</p>
+	</form>
+
+	<div id="movebox"
+		 onmouseover="randomMove()" 
+		 style="position: relative;
+				left: 600px;
+				top: 500px;
+				width: 30px;
+				height: 30px;
+				border-style: solid;
+				border-color: black;
+				background-Color: yellow;">
+	</div>
+
+	</div>
+
+</body>
+
+</html>
