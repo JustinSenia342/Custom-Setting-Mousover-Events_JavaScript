@@ -1,26 +1,26 @@
-		#container{
-			position: fixed;
-			left: 0;
-			top: 0;
-			width: 99%;
-			height: 98%;
-			border-style: solid;
-			border-color: black;
-			border-width: 10px;
-		}
+#container{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 99%;
+	height: 98%;
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+}
 
-		#controlPanel{
-			position: fixed;
-			left: 50px;
-			top: 50px;
-			width: 450px;
-			height: 75px;
-			border-style: solid;
-			border-color: black;
-			background-color: lightgrey;
-		}
+#controlPanel{
+	position: fixed;
+	left: 50px;
+	top: 50px;
+	width: 450px;
+	height: 75px;
+	border-style: solid;
+	border-color: black;
+	background-color: lightgrey;
+}
 
-		#panelOptions{
-			position: fixed;
-			left: 60px;
-		}
+#panelOptions{
+	position: fixed;
+	left: 60px;
+}
